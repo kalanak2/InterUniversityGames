@@ -10,6 +10,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { DrawPage } from '../pages/draw/draw';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { SettingsPage } from '../pages/settings/settings';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ContactPage,
     HomePage,
     TabsPage,
+    SettingsPage,
     DrawPage
   ],
   imports: [
@@ -30,6 +32,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
+    SettingsPage,
     TabsPage,
 
     DrawPage
